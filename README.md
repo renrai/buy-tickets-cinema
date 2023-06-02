@@ -41,14 +41,12 @@ We will like to have a cache layer to cache the response from the Provided API b
 
 ### Execution Tracking
 
-We want to track the execution time of each request done to the service and log the time in the Console.
-By default, we set the loggers to log in to the Console, so you only need to worry where to put the Logger in the code.
-
+We want to track the execution time of each request done is log in to the Console
 
 ## Add the Request to cUrls file
 
-We added a file next to this readme named `cUrls.txt`.
-Please add a curl command for each of the commands and queries that you implemented to this file.
+All workflow added to `cUrls.txt`.
+
 
 ---
 

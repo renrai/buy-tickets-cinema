@@ -1,14 +1,14 @@
 
 ## Context
 
-We want a C# .Net Core Web Application API project that meets our requirements. We provide you with the solution skeleton and a few features implemented to save time.
+A  C# .Net 7  Web Application API
 
 You will find the Data layer is implemented and is instructed to be an In-Memory Database. 
 
 The test includes a docker-compose with Redis and the ProvidedApi, you will need docker to run them.
 
-We only want the following features:
-
+What is implemented:
+- Create movies from IMDB API
 - Create showtimes.
 - Reserve seats.
 - Buy seats.
@@ -17,22 +17,6 @@ We only want the following features:
 
 ## Implementation instructions
 
-## Starting the API
-
-- You will need docker in order to use this API and then run the next command:
-
-```powershell
-docker-compose up
-```
-
-- By default, the provided API will run on [*http://localhost:7172/swagger/index.html*](http://localhost:7172/swagger/index.html) , [https://localhost:7443/swagger/index.html](https://localhost:7443/swagger/index.html)
-- For GRPC use the **HTTPS** port
-- And Redis in the default port.
-- When you end the test
-
-```powershell
-docker-compose down
-```
 
 ## Commands and queries
 

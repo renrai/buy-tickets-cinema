@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DomainApplication/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.22"
+        },
+        "runtime": {
+          "DomainApplication.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.22": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.22"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "3.1.22.0",
+            "fileVersion": "3.100.2221.57103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.22": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.22.0",
+            "fileVersion": "3.100.2221.57103"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DomainApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8nsE4F1h+2CDD++HCsKGi61rILb/bKPZD086kYp7s1hgcN3rwYy9NQVeoyt2ufqhMHK36YbNKMPnBKDbn+x/iA==",
+      "path": "microsoft.extensions.caching.abstractions/3.1.22",
+      "hashPath": "microsoft.extensions.caching.abstractions.3.1.22.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B5CNTMTdzVj/xMpazYcczFk3aUg/qduSfKAfUCH0gJ54NETETHaJBPy2GV6VlIeIw4UZqzXV3DroUkuHP561zg==",
+      "path": "microsoft.extensions.primitives/3.1.22",
+      "hashPath": "microsoft.extensions.primitives.3.1.22.nupkg.sha512"
+    }
+  }
+}

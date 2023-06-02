@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.6.111" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataApplication\DataApplication.csproj" />
+    <ProjectReference Include="..\DomainApplication\DomainApplication.csproj" />
+  </ItemGroup>
+
+</Project>

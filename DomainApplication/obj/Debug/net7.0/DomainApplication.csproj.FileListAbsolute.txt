@@ -1,0 +1,12 @@
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.csproj.AssemblyReference.cache
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.AssemblyInfoInputs.cache
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.AssemblyInfo.cs
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.csproj.CoreCompileInputs.cache
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\bin\Debug\net7.0\DomainApplication.deps.json
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\bin\Debug\net7.0\DomainApplication.dll
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\bin\Debug\net7.0\DomainApplication.pdb
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.dll
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\refint\DomainApplication.dll
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\DomainApplication.pdb
+C:\Users\renro\Music\Documents\Movies-api-challenge.1.0.1 (3)\DomainApplication\obj\Debug\net7.0\ref\DomainApplication.dll

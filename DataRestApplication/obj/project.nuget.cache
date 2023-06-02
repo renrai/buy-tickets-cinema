@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "loFQ2Fm0pKG8UQfT9fBDiVGcnx475OnK+eYdpZldqn4CjpFT/LSni0EukVEEREZDhwrA/slWzfUxSOfB4mRr+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renro\\source\\buy-tickets-cinema\\DataRestApplication\\DataRestApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.22\\microsoft.extensions.caching.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.22\\microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.options\\3.1.22\\microsoft.extensions.options.3.1.22.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yVCKnPbq8ZnPArzbI/FXJSDWy3Kf25u3qfGw9Cq2YfVCDVT9/FJK+07HYDJHPXHhHk3xL4mqhGoqyI0r74pM+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renro\\source\\buy-tickets-cinema\\DomainApplication\\DomainApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.22\\microsoft.extensions.caching.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\renro\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

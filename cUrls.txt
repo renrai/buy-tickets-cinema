@@ -1,0 +1,55 @@
+Please add the cURLs of your tests here:
+
+ curl -X 'GET'  -k 'https://localhost:5484/Movie/get-all'   -H 'accept: */*'
+
+curl -X 'POST' -k 'https://localhost:5484/Movie?imdbId=tt6791350'  -H 'accept: */*'  -d ''
+
+curl -X 'POST'  -k  'https://localhost:5484/ShowTime'  -H 'accept: */*'  -H 'Content-Type: application/json'  -d '{
+  "SessionDate": "2023-05-30T13:35:39.609Z",
+  "MovieId": "07c8da20-3d88-4da7-b58f-aa2c6cae5913",
+  "AuditoriumId": "f10334aa-a425-414b-8bae-7d8d73b4532d"
+}'
+
+
+curl -X 'GET' 'https://localhost:5484/Reservation/get-available-seats/23a793b2-2781-4c8c-a0ba-194288a74900' -H 'accept: */*'
+
+-- need to change the seats Ids with the ids from request above
+curl -X 'POST' \
+  'https://localhost:5484/Reservation' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "ShowTimeId": "23a793b2-2781-4c8c-a0ba-194288a74900",
+  "Seats": [
+    {
+      "Row": 1,
+      "SeatNumber": 1,
+      "Id": "0324d81d-8ca3-41aa-ac95-e520cd8985bc"
+    },
+    {
+      "Row": 1,
+      "SeatNumber": 2,
+      "Id": "9a3507ef-57a3-4268-a94e-e06f27949a95"
+    },
+    {
+      "Row": 1,
+      "SeatNumber": 3,
+      "Id": "98fca7b4-e24e-4efe-9c12-2990a18f3d2c"
+    },
+    {
+      "Row": 1,
+      "SeatNumber": 4,
+      "Id": "068bef74-6013-4c04-8ed6-83b45ee06f70"
+    }
+  ]
+}'
+
+--change the id from next request to the ticket id created above
+curl -X 'POST' \
+  'https://localhost:5484/Tickets/confirm-reservation/254d39f8-b9ea-4ba0-8e0f-a0ece4a0001d' \
+  -H 'accept: */*' \
+  -d ''
+  
+  curl -X 'GET' \
+  'https://localhost:5484/Tickets/get-by-id/87687b1d-1ebf-42d0-bfee-c386a5369482' \
+  -H 'accept: */*'
